@@ -23,7 +23,40 @@
 
 <body>
 
-    <h1>Hello World!</h1>
+    <section id="navbar">
+        <div class="container-fluid navbar-full">
+            <div class="container navbar">
+                <div class="logo">
+                    <a href="/atmajayadw"><img src="Assets/icon/logo.png" alt="logo"></a>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a class="link" href="">About</a></li>
+                        <li><a class="link" href="">Expertise</a></li>
+                        <li><a class="link" href="">Portfolio</a></li>
+                        <li><a class="link" href="">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="container sidebar">
+                    <div class="hamburger">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a class="link" href="">About</a></li>
+                            <li><a class="link" href="">Expertise</a></li>
+                            <li><a class="link" href="">Portfolio</a></li>
+                            <li><a class="link" href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="lib/bootstrap/js/jquery.js"></script>
