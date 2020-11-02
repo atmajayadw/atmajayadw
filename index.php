@@ -58,6 +58,30 @@
         </div>
     </section>
 
+    <section id="jumbotron">
+        <div class="container-fluid jumbo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md jumbo-left">
+                        <div class="left">
+                            <p>Hello, i'm <b>Jay</b></p>
+                            <p>Web Developer<br>& Photographer</p>
+                            <div class="buttons">
+                                <button class="btn explore-btn" href="">Explore!</button>
+                                <button class="btn resume-btn" href="">Resume</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 jumbo-right">
+                        <div class="right">
+                            <img src="assets/image/profile1.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="lib/bootstrap/js/jquery.js"></script>
     <script src="lib/bootstrap/js/popper.js"></script>
