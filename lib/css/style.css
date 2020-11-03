@@ -287,11 +287,109 @@ body {
     font-size: 14px;
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+/* ---------------------- About -----------------------*/
 
+#expertise {
+    padding: 100px 0;
+}
 
+#expertise .expertise .head h3 {
+    color: #E08786;
+}
 
+#expertise .expertise .head h5 {
+    color: #E08786;
+}
+
+#expertise .expertise .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#expertise .expertise .head .buttons {
+    display: flex;
+}
+
+#expertise .expertise .head .buttons .expertise-btn {
+    width: 150px;
+    height: 40px;
+    background-color: #282423;
+    font-size: 14px;
+    color: #E08786;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+#expertise .expertise .head .buttons .expertise-btn:nth-child(2) {
+    width: 150px;
+    height: 40px;
+    background-color: #282423;
+    font-size: 14px;
+    color: #E08786;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+
+#expertise .expertise .head .buttons .expertise-btn.active {
+    background-color: #E08786;
+    color: #282423;
+    border: 2px solid white;
+}
+
+#expertise .expertise .contents {
+    animation-name: zoom;
+    animation-duration: 0.8s;
+}
+
+#expertise .expertise .contents .content {
+    border: 1px solid #E08786;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+#expertise .expertise .contents .content p {
+    color: #E08786;
+}
+
+#expertise .expertise .skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#expertise .expertise .skills .skill {
+    width: 100px;
+}
+
+#expertise .expertise .skills .skill p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
 
 
 

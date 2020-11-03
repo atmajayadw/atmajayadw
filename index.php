@@ -102,6 +102,122 @@
         </div>
     </section>
 
+    <section id="expertise">
+        <div class="container expertise">
+            <div class="head">
+                <h3>My Expertise</h3>
+                <h5>as</h5>
+                <div class="buttons">
+                    <button class="btn webdev-btn expertise-btn" onclick="currentSlide(1)">Web Developer</button>
+                    <button class="btn photo-btn expertise-btn" onclick="currentSlide(2)">Photographer</button>
+                </div>
+            </div>
+            <div class="contents webdev">
+                <div class="content">
+                    <p>Front-End Developer</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <img src="assets/icon/html.png" alt="" class="img-fluid">
+                            <P class="title">HTML 5</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/css.png" alt="" class="img-fluid">
+                            <P class="title">CSS 3</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/js.png" alt="" class="img-fluid">
+                            <P class="title">Javascript</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/bootstrap.png" alt="" class="img-fluid">
+                            <P class="title">Bootstrap</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/jquery.png" alt="" class="img-fluid">
+                            <P class="title">JQuery</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Back-End Developer</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <img src="assets/icon/php.png" alt="" class="img-fluid">
+                            <P class="title">PHP</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/mysql.png" alt="" class="img-fluid">
+                            <P class="title">MySQL</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Tools</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <img src="assets/icon/photoshop.png" alt="" class="img-fluid">
+                            <P class="title">Adobe Photoshop</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/xd.png" alt="" class="img-fluid">
+                            <P class="title">Adobe XD (UI & UX)</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/vscode.png" alt="" class="img-fluid">
+                            <P class="title">Visual Studio Code</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contents photo">
+                <div class="content">
+                    <p>Gears</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <img src="assets/icon/fujixt1.png" alt="" class="img-fluid">
+                            <P class="title">Fujifilm X-T1</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/fujixt10.png" alt="" class="img-fluid">
+                            <P class="title">Fujifilm <br> X-T10</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/35mm.png" alt="" class="img-fluid">
+                            <P class="title">Fujifilm <br> XF 35mm F2</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/1650mm.png" alt="" class="img-fluid">
+                            <P class="title">Fujifilm <br> XC 16-50mm</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/55230mm.png" alt="" class="img-fluid">
+                            <P class="title">Fujifilm <br> XC 55-230mm</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Editing Tools</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <img src="assets/icon/photoshop.png" alt="" class="img-fluid">
+                            <P class="title">Adobe Photoshop</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/lightroom.png" alt="" class="img-fluid">
+                            <P class="title">Adobe Lightroom</P>
+                        </div>
+                        <div class="skill">
+                            <img src="assets/icon/premiere.png" alt="" class="img-fluid">
+                            <P class="title">Adobe Premiere</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="lib/bootstrap/js/jquery.js"></script>
     <script src="lib/bootstrap/js/popper.js"></script>
