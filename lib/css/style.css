@@ -10,6 +10,8 @@ body {
     height: 3000px;
 }
 
+/* ---------------------- Navbar -----------------------*/
+
 #navbar {
     height: 80px;
     position: relative;
@@ -139,6 +141,8 @@ body {
 
 }
 
+/* ---------------------- Jumbotron -----------------------*/
+
 #jumbotron {
     margin-top: -80px;
     position: relative;
@@ -256,6 +260,39 @@ body {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
+
+/* ---------------------- About -----------------------*/
+
+#about {
+    padding: 100px 0;
+}
+
+#about .about .left img {
+    display: block;
+    margin: auto;
+    width: 280px;
+}
+
+#about .about .right h3 {
+    color: #E08786;
+    margin-top: 30px;
+}
+
+#about .about .right p {
+    color: #E08786;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-weight: lighter;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+
+
+
 
 
 

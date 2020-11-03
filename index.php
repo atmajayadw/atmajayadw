@@ -82,6 +82,26 @@
         </div>
     </section>
 
+    <section id="about">
+        <div class="container about">
+            <div class="row">
+                <div class="col-md-6 left">
+                    <img src="assets/image/profile2.png" alt="" class="profile2">
+                </div>
+                <div class="col-md-6 right">
+                    <h3>About Me</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore.
+                    </p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="lib/bootstrap/js/jquery.js"></script>
     <script src="lib/bootstrap/js/popper.js"></script>
