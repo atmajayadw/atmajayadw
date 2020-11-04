@@ -112,7 +112,7 @@
                     <button class="btn photo-btn expertise-btn" onclick="currentSlide(2)">Photographer</button>
                 </div>
             </div>
-            <div class="contents webdev">
+            <div class="contents_expertise webdev">
                 <div class="content">
                     <p>Front-End Developer</p>
                     <div class="skills">
@@ -163,6 +163,10 @@
                             <P class="title">Adobe XD (UI & UX)</P>
                         </div>
                         <div class="skill">
+                            <img src="assets/icon/git.png" alt="" class="img-fluid">
+                            <P class="title">Git & Github</P>
+                        </div>
+                        <div class="skill">
                             <img src="assets/icon/vscode.png" alt="" class="img-fluid">
                             <P class="title">Visual Studio Code</P>
                         </div>
@@ -170,7 +174,7 @@
                 </div>
             </div>
 
-            <div class="contents photo">
+            <div class="contents_expertise photo">
                 <div class="content">
                     <p>Gears</p>
                     <div class="skills">
@@ -215,6 +219,59 @@
                 </div>
             </div>
         </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container portfolio">
+            <div class="head">
+                <h3>My Portfolio as</h3>
+                <div class="buttons">
+                    <p class="portfolio-btn" onclick="currentSlide_(1)">Web Developer</p>
+                    <p class="portfolio-btn" onclick="currentSlide_(2)">Photographer</p>
+                </div>
+            </div>
+            <div class="contents_portfolio webdev">
+                <div class="content-webdev">
+                    <img src="assets/image/porto1.png" alt="porto1" class="img-fluid">
+                    <p>SMA Yaspen Tugu Ibu</p>
+                </div>
+                <div class="content-webdev">
+                    <img src="assets/image/porto2.png" alt="porto1" class="img-fluid">
+                    <p>Web UI Expert - Designed by
+                        Ehsan Moin</p>
+                </div>
+                <div class="content-webdev">
+                    <img src="assets/image/porto3.png" alt="porto1" class="img-fluid">
+                    <p>Qulby - Designed by Rahul Rao</p>
+                </div>
+                <div class="content-webdev">
+                    <img src="assets/image/porto4.png" alt="porto1" class="img-fluid">
+                    <p>Organic - Designed by inkyy</p>
+                </div>
+            </div>
+            <div class="contents_portfolio photo">
+                <div class="content-photo">
+                    <img src="assets/image/thumbnail1.jpg" alt="" class="img-fluid">
+                    <button class="btn">Animal</button>
+                </div>
+                <div class="content-photo">
+                    <img src="assets/image/thumbnail2.jpg" alt="" class="img-fluid">
+                    <button class="btn">Portrait</button>
+                </div>
+                <div class="content-photo">
+                    <img src="assets/image/thumbnail3.jpg" alt="" class="img-fluid">
+                    <button class="btn">Event</button>
+                </div>
+                <div class="content-photo">
+                    <img src="assets/image/thumbnail4.jpg" alt="" class="img-fluid">
+                    <button class="btn">Wedding</button>
+                </div>
+                <div class="content-photo">
+                    <img src="assets/image/thumbnail5.jpg" alt="" class="img-fluid">
+                    <button class="btn">Pre-Wedding</button>
+                </div>
+            </div>
         </div>
     </section>
 
