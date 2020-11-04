@@ -275,6 +275,30 @@
         </div>
     </section>
 
+    <section id="footer">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Get in touch</h3>
+                    <p>Have an inquiry or some feedback for me ? <br>
+                        Please send email to atmajaya.dw@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/icon/memphis4.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="socmed">
+                <a href="https://www.facebook.com/adew36" target="_blank"><img src="assets/icon/facebook.png" alt=""
+                        class="img-fluid"></a>
+                <a href="https://twitter.com/atmajaya_dw" target="_blank"><img src="assets/icon/twitter.png" alt=""
+                        class="img-fluid"></a>
+                <a href="https://www.instagram.com/atmajaya.dw/" target="_blank"><img src="assets/icon/instagram.png"
+                        alt="" class="img-fluid"></a>
+            </div>
+        </div>
+    </section>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="lib/bootstrap/js/jquery.js"></script>
     <script src="lib/bootstrap/js/popper.js"></script>
