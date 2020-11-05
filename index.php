@@ -104,8 +104,8 @@
 
     <section id="parallax1">
         <div class="container parallax-element">
-            <img src="assets/icon/memphis1.png" alt="" class="img-fluid memphis1">
-            <img src="assets/icon/memphis2.png" alt="" class="img-fluid memphis2">
+            <img src="assets/icon/memphis1.png" alt="" class="memphis1">
+            <img src="assets/icon/memphis2.png" alt="" class="memphis2">
         </div>
     </section>
 
@@ -226,6 +226,13 @@
                 </div>
             </div>
         </div>
+        </div>
+    </section>
+
+    <section id="parallax2">
+        <div class="container parallax-element">
+            <img src="assets/icon/memphis3.png" alt="" class="img-fluid memphis3">
+            <img src="assets/icon/memphis3.png" alt="" class="img-fluid memphis4">
         </div>
     </section>
 
