@@ -501,6 +501,42 @@ body {
     }
 }
 
+/* ---------------------- Parallax element -----------------------*/
+
+#parallax1 .parallax-element {
+    position: relative;
+}
+
+#parallax1 .parallax-element .memphis1 {
+    position: absolute;
+    top: -90px;
+    left: -100px;
+    z-index: -1;
+}
+
+#parallax1 .parallax-element .memphis2 {
+    position: absolute;
+    top: -160px;
+    right: -130px;
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    #parallax1 .parallax-element .memphis1 {
+        position: absolute;
+        top: -50px;
+        left: 50px;
+        z-index: -1;
+    }
+
+    #parallax1 .parallax-element .memphis2 {
+        position: absolute;
+        top: -140px;
+        right: 10px;
+        z-index: -1;
+    }
+}
+
 
 /* ---------------------------------------  */
 /* Extra small devices (portrait phones, less than 576px) */

@@ -102,6 +102,13 @@
         </div>
     </section>
 
+    <section id="parallax1">
+        <div class="container parallax-element">
+            <img src="assets/icon/memphis1.png" alt="" class="img-fluid memphis1">
+            <img src="assets/icon/memphis2.png" alt="" class="img-fluid memphis2">
+        </div>
+    </section>
+
     <section id="expertise">
         <div class="container expertise">
             <div class="head">
