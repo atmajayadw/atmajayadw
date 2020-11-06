@@ -31,10 +31,10 @@
                 </div>
                 <div class="links">
                     <ul>
-                        <li><a class="link" href="">About</a></li>
-                        <li><a class="link" href="">Expertise</a></li>
-                        <li><a class="link" href="">Portfolio</a></li>
-                        <li><a class="link" href="">Contact</a></li>
+                        <li><a class="link scroll" href="#about">About</a></li>
+                        <li><a class="link scroll" href="#expertise">Expertise</a></li>
+                        <li><a class="link scroll" href="#portfolio">Portfolio</a></li>
+                        <li><a class="link scroll" href="#contact">Contact</a></li>
                     </ul>
                 </div>
 
@@ -46,10 +46,10 @@
                     </div>
                     <div class="links">
                         <ul>
-                            <li><a class="link" href="">About</a></li>
-                            <li><a class="link" href="">Expertise</a></li>
-                            <li><a class="link" href="">Portfolio</a></li>
-                            <li><a class="link" href="">Contact</a></li>
+                            <li><a class="link scroll" href="#about">About</a></li>
+                            <li><a class="link scroll" href="#expertise">Expertise</a></li>
+                            <li><a class="link scroll" href="#portfolio">Portfolio</a></li>
+                            <li><a class="link scroll" href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                             <p>Hello, i'm <b>Jay</b></p>
                             <p>Web Developer<br>& Photographer</p>
                             <div class="buttons">
-                                <button class="btn explore-btn" href="">Explore!</button>
+                                <button class="btn explore-btn" href="#about">Explore!</button>
                                 <button class="btn resume-btn" href="">Resume</button>
                             </div>
                         </div>
@@ -289,8 +289,8 @@
         </div>
     </section>
 
-    <section id="footer">
-        <div class="container footer">
+    <section id="contact">
+        <div class="container contact">
             <div class="row">
                 <div class="col-md-8">
                     <h3>Get in touch</h3>

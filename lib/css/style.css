@@ -38,7 +38,7 @@ body {
 }
 
 #navbar .navbar .logo img {
-    width: 50px;
+    width: 40px;
 }
 
 #navbar .navbar .links {
@@ -217,6 +217,13 @@ body {
     color: white;
     border-radius: 10px;
     border: 2px solid #282423;
+    transition: 0.5s;
+}
+
+#jumbotron .jumbo .jumbo-left .buttons .explore-btn:hover {
+    background-color: #282423;
+    color: #E08786;
+    font-size: 16px;
 }
 
 #jumbotron .jumbo .jumbo-left .buttons .resume-btn {
@@ -228,6 +235,14 @@ body {
     border-radius: 10px;
     border: 2px solid white;
     margin-left: 10px;
+    transition: 0.5s;
+}
+
+#jumbotron .jumbo .jumbo-left .buttons .resume-btn:hover {
+    background-color: #E08786;
+    color: #282423;
+    border: 2px solid #E08786;
+    font-size: 16px;
 }
 
 #jumbotron .jumbo .jumbo-right img {
@@ -477,42 +492,42 @@ body {
 
 /* ---------------------- Expertise -----------------------*/
 
-#footer {
+#contact {
     padding-top: 35px;
     border-top: 2px solid #E08786;
     overflow: hidden;
 }
 
-#footer .footer h3 {
+#contact .contact h3 {
     color: #E08786;
 }
 
-#footer .footer p {
+#contact .contact p {
     color: #E08786;
     font-size: 18px;
 }
 
-#footer .footer img {
+#contact .contact img {
     width: 180px;
     display: block;
     margin: auto;
     margin-top: 30px;
 }
 
-#footer .footer .socmed {
+#contact .contact .socmed {
     width: 360px;
     display: flex;
     justify-content: space-around;
 }
 
-#footer .footer .socmed img {
+#contact .contact .socmed img {
     width: 40px;
     cursor: pointer;
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    #footer .footer .socmed {
+    #contact .contact .socmed {
         transform: translate(0px, -100px);
         justify-content: space-between;
     }
