@@ -24,6 +24,17 @@ body {
     display: flex;
     align-items: center;
     height: 80px;
+    transition: 1s;
+}
+
+#navbar .navbar-full.sticky {
+    position: fixed;
+    background-color: #E08786;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 1s;
+    border-bottom: whitesmoke 2px solid;
 }
 
 #navbar .navbar .logo img {
@@ -575,7 +586,7 @@ body {
     #parallax2 .parallax-element .memphis3 {
         position: absolute;
         left: -50px;
-        top: -50px;
+        top: -10px;
         z-index: -1;
         transform: scale(0.9);
     }
@@ -583,7 +594,7 @@ body {
     #parallax2 .parallax-element .memphis4 {
         position: absolute;
         right: -180px;
-        top: 90px;
+        top: 40px;
         z-index: -1;
         transform: scale(0.8);
     }
@@ -601,7 +612,7 @@ body {
     #parallax2 .parallax-element .memphis4 {
         position: absolute;
         right: 10px;
-        top: 130px;
+        top: 100px;
         z-index: -1;
         transform: scale(0.8);
     }
