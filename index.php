@@ -182,7 +182,7 @@
             </div>
 
             <div class="contents_expertise photo">
-                <div class="content">
+                <div class="content content-photo">
                     <p>Gears</p>
                     <div class="skills">
                         <div class="skill">
@@ -207,7 +207,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="content">
+                <div class="content content-photo">
                     <p>Editing Tools</p>
                     <div class="skills">
                         <div class="skill">
@@ -246,42 +246,46 @@
                 </div>
             </div>
             <div class="contents_portfolio webdev">
-                <div class="content-webdev">
+                <div class="content_webdev">
                     <img src="assets/image/porto1.png" alt="porto1" class="img-fluid">
-                    <p>SMA Yaspen Tugu Ibu</p>
+                    <a href="https://project1.atmajayadw.site/" target="_blank"><span>SMA Yaspen Tugu Ibu</span></a>
                 </div>
-                <div class="content-webdev">
+                <div class="content_webdev">
                     <img src="assets/image/porto2.png" alt="porto1" class="img-fluid">
-                    <p>Web UI Expert - Designed by
-                        Ehsan Moin</p>
+                    <a href="https://project2.atmajayadw.site/" target="_blank"><span>Web UI Expert - Designed by
+                            Ehsan Moin</span></a>
                 </div>
-                <div class="content-webdev">
+                <div class="content_webdev">
                     <img src="assets/image/porto3.png" alt="porto1" class="img-fluid">
-                    <p>Qulby - Designed by Rahul Rao</p>
+                    <a href="https://project3.atmajayadw.site/" target="_blank">
+                        <span>Qulby - Designed by Rahul Rao</span>
+                    </a>
                 </div>
-                <div class="content-webdev">
+                <div class="content_webdev">
                     <img src="assets/image/porto4.png" alt="porto1" class="img-fluid">
-                    <p>Organic - Designed by inkyy</p>
+                    <a href="https://project4.atmajayadw.site/" target="_blank">
+                        <span>Organic - Designed by inkyy</span>
+                    </a>
                 </div>
             </div>
             <div class="contents_portfolio photo">
-                <div class="content-photo">
+                <div class="content_photo">
                     <img src="assets/image/thumbnail1.jpg" alt="" class="img-fluid">
                     <button class="btn">Animal</button>
                 </div>
-                <div class="content-photo">
+                <div class="content_photo">
                     <img src="assets/image/thumbnail2.jpg" alt="" class="img-fluid">
                     <button class="btn">Portrait</button>
                 </div>
-                <div class="content-photo">
+                <div class="content_photo">
                     <img src="assets/image/thumbnail3.jpg" alt="" class="img-fluid">
                     <button class="btn">Event</button>
                 </div>
-                <div class="content-photo">
+                <div class="content_photo">
                     <img src="assets/image/thumbnail4.jpg" alt="" class="img-fluid">
                     <button class="btn">Wedding</button>
                 </div>
-                <div class="content-photo">
+                <div class="content_photo">
                     <img src="assets/image/thumbnail5.jpg" alt="" class="img-fluid">
                     <button class="btn">Pre-Wedding</button>
                 </div>
