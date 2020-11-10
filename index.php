@@ -27,14 +27,14 @@
         <div class="container-fluid navbar-full">
             <div class="container navbar">
                 <div class="logo">
-                    <a href="/atmajayadw"><img src="Assets/icon/logo.png" alt="logo"></a>
+                    <a href="/"><img src="assets/icon/logo.png" alt="logo"></a>
                 </div>
                 <div class="links">
                     <ul>
-                        <li><a class="link scroll" href="#about">About</a></li>
-                        <li><a class="link scroll" href="#expertise">Expertise</a></li>
-                        <li><a class="link scroll" href="#portfolio">Portfolio</a></li>
-                        <li><a class="link scroll" href="#contact">Contact</a></li>
+                        <li><a class="link about scroll" href="#about">About</a></li>
+                        <li><a class="link scroll expertise" href="#expertise">Expertise</a></li>
+                        <li><a class="link scroll portfolio" href="#portfolio">Portfolio</a></li>
+                        <li><a class="link scroll contact" href="#contact">Contact</a></li>
                     </ul>
                 </div>
 
@@ -46,10 +46,10 @@
                     </div>
                     <div class="links">
                         <ul>
-                            <li><a class="link scroll" href="#about">About</a></li>
-                            <li><a class="link scroll" href="#expertise">Expertise</a></li>
-                            <li><a class="link scroll" href="#portfolio">Portfolio</a></li>
-                            <li><a class="link scroll" href="#contact">Contact</a></li>
+                            <li><a class="link scroll about" href="#about">About</a></li>
+                            <li><a class="link scroll expertise" href="#expertise">Expertise</a></li>
+                            <li><a class="link scroll portfolio" href="#portfolio">Portfolio</a></li>
+                            <li><a class="link scroll contact" href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -102,15 +102,10 @@
         </div>
     </section>
 
-    <section id="parallax1">
-        <div class="container parallax-element">
-            <img src="assets/icon/memphis1.png" alt="" class="memphis1">
-            <img src="assets/icon/memphis2.png" alt="" class="memphis2">
-        </div>
-    </section>
-
     <section id="expertise">
         <div class="container expertise">
+            <img src="assets/icon/memphis1.png" alt="" class="img-fluid memphis1">
+            <img src="assets/icon/memphis2.png" alt="" class="img-fluid memphis2">
             <div class="head">
                 <h3>My Expertise</h3>
                 <h5>as</h5>
@@ -229,15 +224,17 @@
         </div>
     </section>
 
-    <section id="parallax2">
+    <!-- <section id="parallax2">
         <div class="container parallax-element">
             <img src="assets/icon/memphis3.png" alt="" class="img-fluid memphis3">
             <img src="assets/icon/memphis3.png" alt="" class="img-fluid memphis4">
         </div>
-    </section>
+    </section> -->
 
     <section id="portfolio">
         <div class="container portfolio">
+            <img src="assets/icon/memphis3.png" alt="" class="img-fluid memphis3">
+            <img src="assets/icon/memphis3.png" alt="" class="img-fluid memphis4">
             <div class="head">
                 <h3>My Portfolio as</h3>
                 <div class="buttons">
